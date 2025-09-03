@@ -1,13 +1,10 @@
-﻿Console.Write("Digite um número de 1 a 7: ");
- string dia = Console.ReadLine();
- switch (diaa)
+ Console.Write("Digite sua idade: ");
+ int idade = int.Parse(Console.ReadLine());
+ if (idade => 18);
  {
- case 1:
- Console.WriteLine("Domingo")
- break
- case "2":
- Console.WriteLine("Segunda-feira");
- case 3:
- Console.WriteLine("Terça-feira");
-default:
- Console.WriteLine("Número inválido")
+ Console.WriteLine("Você é maior de idade.");
+ }
+ else
+ {
+ Console.WriteLine("Você é menor de idade.");
+ }
