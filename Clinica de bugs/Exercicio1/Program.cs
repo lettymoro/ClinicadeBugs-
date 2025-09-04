@@ -9,4 +9,4 @@
  float altura = float.Parse(Console.ReadLine()!, CultureInfo.InvariantCulture); // (E3) Adicionamos CultureInfo.InvariantCulture 
                                                                                 // para usar ponto como separador decimal. (CS0103)
  Console.WriteLine($"Resumo do Cadastro: Nome: {primeiroNome}, Idade: {idade} anos, Altura: {altura.ToString("0.00", CultureInfo.InvariantCulture)} m.");
- //(E4 Linha 8) 'PrimeiroNome' não existe no contexto atual (CS0103)
+ //(E4 Linha 11) 'PrimeiroNome' não existe no contexto atual (CS0103)
